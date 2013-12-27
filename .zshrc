@@ -13,10 +13,6 @@ alias grep='grep --color=auto'
 
 autoload colors; colors;
 
-if [ "$COLORTERM" = "gnome-terminal" ]; then
-	export TERM=xterm-256color
-fi
-
 
 setopt hist_ignore_all_dups
 export HISTSIZE=2000
